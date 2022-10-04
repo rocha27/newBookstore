@@ -9,7 +9,10 @@ import { FooterComponent } from './template/footer/footer.component';
 import { CategoriasComponent } from './components/categorias/categorias.component';
 
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
-
+import {InputTextModule} from 'primeng/inputtext';
+import {TabMenuModule} from 'primeng/tabmenu';
+// import {MenuItem} from 'primeng/api';
+import {MenuItem} from 'primeng/api';
 
 @NgModule({
   declarations: [
@@ -24,7 +27,8 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
     BrowserAnimationsModule,
     AppRoutingModule,
     
-
+    InputTextModule,
+    TabMenuModule
   ],
   providers: [],
   bootstrap: [AppComponent]
