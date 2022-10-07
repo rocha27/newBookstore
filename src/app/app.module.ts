@@ -11,6 +11,7 @@ import { CategoriasComponent } from './components/categorias/categorias.componen
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import {InputTextModule} from 'primeng/inputtext';
 import {TabMenuModule} from 'primeng/tabmenu';
+import { CardModule } from 'primeng/card';
 // import {MenuItem} from 'primeng/api';
 import {MenuItem} from 'primeng/api';
 
@@ -28,7 +29,8 @@ import {MenuItem} from 'primeng/api';
     AppRoutingModule,
     
     InputTextModule,
-    TabMenuModule
+    TabMenuModule,
+    CardModule
   ],
   providers: [],
   bootstrap: [AppComponent]
